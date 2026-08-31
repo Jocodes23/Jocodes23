@@ -21,7 +21,7 @@ verification from ~60s to ~1s and eliminated a class of false rejections.
 
 `Python` · `FastAPI` · `SQLite (sqlite-vec + FTS5)` · `Flutter` · `PyMuPDF` · `Transformers`
 
-**[Reels Trend Intelligence](https://github.com/Jocodes23/An-Instagram-reel-post-virality-predictor)**
+**[Reel Virality Analyser](https://github.com/Jocodes23/Reel-virality-analyser)**
 — a trend-forecasting engine for short-form video that refuses to overclaim.
 Hawkes/SEISMIC reproduction numbers, survival analysis and burst detection,
 fused into calibrated probabilities with confidence intervals, validated by
