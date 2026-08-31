@@ -31,13 +31,23 @@ and the whole pipeline runs real CLIP and MiniLM embeddings inside 4 GB of VRAM.
 
 `Python` · `PyTorch` · `CLIP` · `scikit-learn` · `Docker`
 
-**[Style-Match Studio](https://github.com/Jocodes23/Style-Matched-Auto-Posting-App)**
+**[Ai-TraderBot](https://github.com/Jocodes23/Ai-TraderBot)** — an event-driven
+backtesting and strategy platform for Indian equities. Hand-rolled indicators,
+meta-labelling with triple-barrier targets and purged cross-validation, and a
+cost model reflecting real brokerage, STT and slippage. Results are reported as
+measured rather than as marketing: most rule strategies are negative after
+costs, and the chart-CNN experiment returned an out-of-sample AUC of 0.5001 —
+recorded as the null result it is.
+
+`Python` · `FastAPI` · `LightGBM` · `PyTorch` · `Flutter`
+
+**[Style-Match Studio](https://github.com/Jocodes23/Style-Match-Studio)**
 — reference-guided image generation that reproduces the visual language of an
 inspiration post using your own content, then publishes it directly.
 
 `TypeScript` · `Diffusion models`
 
-**[Gmail → Drive automation](https://github.com/Jocodes23/Automation-without-the-use-of-apis)**
+**[Mail-to-drive](https://github.com/Jocodes23/Mail-to-drive)**
 — scans a mailbox for matching messages and moves their attachments into Drive
 entirely through browser automation, deliberately avoiding API and OAuth setup.
 
