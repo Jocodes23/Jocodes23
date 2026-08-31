@@ -63,4 +63,4 @@ Retrieval systems and grounding · calibration and uncertainty · running capabl
 models on constrained hardware · anything where the interesting question is
 "how do we know this is right?"
 
-📫 mychajlo2303@gmail.com
+📫 johann.m.noronha@gmail.com
