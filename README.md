@@ -11,26 +11,8 @@ www.linkedin.com/in/johann-noronha-345182271
 
 ### What I'm working on
 
-**[Professor DAN](https://github.com/Jocodes23/Professor-DAN)** — a voice bot
-for your own documents. Ask a question out loud and it answers out loud from
-your PDFs, with the page or figure it used shown on screen, all running locally.
-I built it because PaperMind got answers right but was too slow to talk to:
-a verified answer took ~28 s and you could only type. Prof DAN starts speaking
-about 3 s after you stop talking, on a laptop with a 4 GB GPU.
+**[Professor DAN](https://github.com/Jocodes23/Professor-DAN)** — a voice-native interface to your own documents that answers out loud from your PDFs and puts the exact page or figure on screen, running entirely on a laptop. Speech is transcribed while you're still talking, biased toward vocabulary from the indexed corpus, and the reply is streamed into speech sentence by sentence so it can be interrupted mid-answer. Grounding the recogniser in the documents cut a misheard key term from 39/54 to 8/54 noisy test sentences, and the full pipeline — VAD, ASR, retrieval, generation and TTS — starts speaking ~3 s after you stop talking on a 4 GB GPU, down from ~28 s for a typed, verified answer.
 
-- **Two ways to talk.** *Voice chat* gives a short, precise answer as fast as
-  possible. *Converse* is a hands-free conversation: it waits until you've
-  finished your thought, replies to "thanks" or "go on" without searching the
-  paper, and answers yes/no questions with a yes or no first.
-- **Speaks while it thinks.** Speech is recognised while you're still talking,
-  and the answer is streamed into speech sentence by sentence instead of
-  waiting for it to finish.
-- **Interrupt it any time.** Start talking and it stops mid-sentence.
-- **Sources on screen before the first word.** Every answer shows the exact
-  pages it came from.
-- **Hears your project's words.** Speech recognition is biased toward
-  vocabulary from your own documents, which cut a misheard key term from 39/54
-  to 8/54 noisy test sentences.
 
 `Python` · `FastAPI` · `faster-whisper` · `Silero VAD` · `Ollama (Qwen2.5)` · `Piper TTS` · `Chroma` · `Flutter`
 
