@@ -3,6 +3,8 @@
 Aerospace engineer working in applied AI. I build systems that reason over
 messy real-world data — documents, video engagement, market signals — and I
 care most about the part everyone skips: knowing when the model is wrong.
+Lately I've been learning to build voice bots: systems you talk to instead of
+type to, where latency matters as much as accuracy.
 
 Most of what I publish here is built end to end, from data pipeline to
 interface, and tested against real inputs rather than curated demos.
@@ -10,6 +12,31 @@ interface, and tested against real inputs rather than curated demos.
 ---
 
 ### What I'm working on
+
+**[Professor DAN](https://github.com/Jocodes23/Professor-DAN)** — a voice bot
+for your own documents. Ask a question out loud and it answers out loud from
+your PDFs, with the page or figure it used shown on screen, all running locally.
+I built it because PaperMind got answers right but was too slow to talk to:
+a verified answer took ~28 s and you could only type. Prof DAN starts speaking
+about 3 s after you stop talking, on a laptop with a 4 GB GPU.
+
+- **Two ways to talk.** *Voice chat* gives a short, precise answer as fast as
+  possible. *Converse* is a hands-free conversation: it waits until you've
+  finished your thought, replies to "thanks" or "go on" without searching the
+  paper, and answers yes/no questions with a yes or no first.
+- **Speaks while it thinks.** Speech is recognised while you're still talking,
+  and the answer is streamed into speech sentence by sentence instead of
+  waiting for it to finish.
+- **Interrupt it any time.** Start talking and it stops mid-sentence.
+- **Sources on screen before the first word.** Every answer shows the exact
+  pages it came from.
+- **Hears your project's words.** Speech recognition is biased toward
+  vocabulary from your own documents, which cut a misheard key term from 39/54
+  to 8/54 noisy test sentences.
+
+<img src="https://raw.githubusercontent.com/Jocodes23/Professor-DAN/main/docs/images/converse.png" alt="Professor DAN in Converse mode: a spoken conversation about a heat-transfer paper, with page citations under the answer" width="720">
+
+`Python` · `FastAPI` · `faster-whisper` · `Silero VAD` · `Ollama (Qwen2.5)` · `Piper TTS` · `Chroma` · `Flutter`
 
 **[PaperMind](https://github.com/Jocodes23/PaperMind)** — a local-first
 document intelligence system for research papers. Answers are generated only
@@ -69,7 +96,8 @@ difficulty is in modelling the thing honestly, not in running the solver.
 
 ### Interests
 
-Retrieval systems and grounding · calibration and uncertainty · running capable
+Voice interfaces and low-latency speech · retrieval systems and grounding ·
+calibration and uncertainty · running capable
 models on constrained hardware · anything where the interesting question is
 "how do we know this is right?"
 
