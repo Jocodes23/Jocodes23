@@ -5,6 +5,8 @@ Aerospace engineer working in applied AI. I build systems that reason over messy
 Most of what I publish here is built end to end, from data pipeline to
 interface, and tested against real inputs rather than curated demos.
 
+www.linkedin.com/in/johann-noronha-345182271
+
 ---
 
 ### What I'm working on
@@ -78,13 +80,7 @@ entirely through browser automation, deliberately avoiding API and OAuth setup.
 
 ### Background
 
-B.Tech Aerospace Engineering, Amity University Mumbai (2021–2025), minor in
-Business Management. Research intern at DIAT (DRDO) on subsonic aerodynamics
-and CFD; earlier internships in aircraft maintenance at Air India and avionics
-telemetry at Star Technology.
-
-The move into AI came from the same instinct as the CFD work — most of the
-difficulty is in modelling the thing honestly, not in running the solver.
+B.Tech Aerospace Engineering, Amity University Mumbai (2021–2025), minor in Business Management. The move into AI wasn't a departure — it came from the same instinct that drove my engineering work: the hard part is understanding the problem clearly and being honest about what you don't know, not getting a machine to spit out an answer. I have work experience at a RAG company, and I've also worked on drones and other Aerospace vehicles.
 
 ---
 
