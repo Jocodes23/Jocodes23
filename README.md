@@ -1,10 +1,6 @@
 ## Johann Noronha
 
-Aerospace engineer working in applied AI. I build systems that reason over
-messy real-world data — documents, video engagement, market signals — and I
-care most about the part everyone skips: knowing when the model is wrong.
-Lately I've been learning to build voice bots: systems you talk to instead of
-type to, where latency matters as much as accuracy.
+Aerospace engineer working in applied AI. I build systems that reason over messy real-world data — documents, video engagement, market signals — and I care most about the part everyone skips: knowing when the model is wrong. I like problems where the hard part isn't getting an answer, but trusting it.
 
 Most of what I publish here is built end to end, from data pipeline to
 interface, and tested against real inputs rather than curated demos.
@@ -33,8 +29,6 @@ about 3 s after you stop talking, on a laptop with a 4 GB GPU.
 - **Hears your project's words.** Speech recognition is biased toward
   vocabulary from your own documents, which cut a misheard key term from 39/54
   to 8/54 noisy test sentences.
-
-<img src="https://raw.githubusercontent.com/Jocodes23/Professor-DAN/main/docs/images/converse.png" alt="Professor DAN in Converse mode: a spoken conversation about a heat-transfer paper, with page citations under the answer" width="720">
 
 `Python` · `FastAPI` · `faster-whisper` · `Silero VAD` · `Ollama (Qwen2.5)` · `Piper TTS` · `Chroma` · `Flutter`
 
